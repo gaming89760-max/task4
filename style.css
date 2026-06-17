@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing:border-box;font-family: 'Montserrat', 'Arial Black', sans-serif;
 }
 .header{
     background-color: rgb(124, 6, 6);
@@ -21,6 +21,12 @@
 
     
 }
+
+.mai{
+    gap: 1.3vw
+    ;
+}
+
 .logo img{
     margin-left:4vw;
 
@@ -60,15 +66,17 @@ p{
 }
 .image img{
     width: 3.3vw;
-    margin-left: 6.5vw;
+    margin-left: 9vw;
     
 }
 .image span{
     font-size: 5vw;
     font-weight: bolder;
-    margin-left: 2vw;
+    margin-left: 1vw;
+    /* margin-right:2vw */
 }
-.images{margin-left: 10vw;
+.images{
+    margin-left: 8vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,11 +89,29 @@ p{
 .images h2{
     color:rgb(161, 11, 111);
     margin-top:2vw;
+    font-family: 'Arial', sans-serif;
 }
 .mai{
     display: flex;
     flex-direction: row;
+    /* margin-right:4vw; */
+    /* margin-left:4vw; */
+    
+    
 }
+.mai h2{
+    font-weight: bolder;
+    font-size: larger;
+    /* font-family: 'Arial', sans-serif; */
+}
+    
+
+.mai h3{
+    font-weight: bolder;
+}
+
+
+
 .images img{
     width: 6vw;
 }
